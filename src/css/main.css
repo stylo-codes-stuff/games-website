@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Candal;
+    src: "/Fonts/Candal-Regular.ttf";
+}
+@keyframes appear{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+
+    
+}
+
+.appear{
+    animation-name:appear;
+    animation-duration: 4s;
+}
+nav{
+    display:flex;
+}

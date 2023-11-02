@@ -1,0 +1,19 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "parcel": "^2.0.0-nightly.1368",
+    "postcss": "^8.4.30",
+    "postcss-lit": "^1.1.0",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "lit": "^2.8.0",
+    "lit-element": "^3.3.3",
+    "postcss-for": "^2.1.1"
+  }
+}
